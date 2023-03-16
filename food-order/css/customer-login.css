@@ -1,0 +1,195 @@
+/* css for all */
+.error{
+    padding: 2%;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.success{
+    padding: 2%;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+/* css for main content*/
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.content{
+    padding: 4%;
+	
+}
+.box2{
+	width: 40%;
+	margin: 2%;
+	color: #fff;
+	margin-left: 6%;
+    float: left; 
+    /*border: 1px solid red;*/
+}
+.login{
+
+	background-color: #f9f6f3;
+	width: 22%;
+	height: fit-content;
+	margin: 2%;
+	color: #fff;
+	margin-left: 20%;
+    float: left; 
+    border: 1px solid black
+}
+
+.content h1{
+	font-family: Verdana;
+	font-size: 50px;
+	padding-left: 20px;
+	margin-top: 20px;
+	letter-spacing: 2px;
+	color: #ff7200;
+}
+.par{
+	color: #fff;
+	padding-left: 20px;
+	font-family: Arial;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+}
+
+h3{
+	color: #ff7200;
+	margin: 5%;
+	font-family: Arial;
+	font-size: 35px;
+}
+h4{
+	color: #ff7200;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h5{
+	
+	font-size: 20px;
+	color: #ff7200;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box2 p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #d2dae2;
+	font-size: 30px;
+	margin-top: 1%;
+}/*
+.content span{
+	color: #ff7200;
+	font-size: 60px;
+}
+/* css for Contact button start*/
+.content .cn{
+	width: 160px;
+	height: 40px;
+	background: #ffc048;
+	border: none;
+	margin: 5%;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+.content .cn a{
+	text-decoration: none;
+	color: #000;
+	transition: .3s #fff;
+}
+.cn:hover{
+	background-color: #ff7200;
+}
+.cn:hover a{
+    color: #000;
+}
+/* css for Contact button ends*/
+
+
+form input{
+    width: 95%;
+    padding: 3%;
+    background: transparent;
+    margin: 3%;
+	border-radius: 5px;    
+}
+form input:hover{
+	cursor: pointer;
+	background-color: #fff;
+}
+/* css for login button start */
+.btn{
+	width: 30%;
+    height: 40px;
+	background: #ffc048;
+	padding: 1%;
+    margin-left: 35%;
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/*border-radius: 10px;*/
+	cursor: pointer;
+	transition: 0.4s ease;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	 
+}
+.btn a{
+	text-decoration: none;
+	color: #f5cd79;
+   
+}
+.btn:hover{
+    background-color: #ff7200;
+}
+.btn:hover a{
+    columns: #000;
+    transition: .3s #fff;
+}
+::placeholder{
+	color: #cf6a87;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+}
+/* css for login button end */
+
+/*css for footer section */
+.footer-login p a {
+	color: #182C61;
+	font-size: 20px;
+}
+.footer-login p {
+	color: #6D214F;
+	font-size: 20px;
+}
+
+/* css for responsive media*/
+@media only screen and (max-width:700px)
+{
+	.logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+	.menu ul {
+		text-align:center;
+	}
+	.btn{
+		width:91%;
+		padding:1%;
+		margin: 4% auto;
+		margin-left: 5%;
+	}
+	.box2{
+		width:100%;
+		margin:4% auto;
+	}
+}
